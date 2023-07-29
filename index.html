@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HISTORICAL PLACES</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo"><mark><b><u>INDIA</u></b></mark></h1>
+        <ul class="nav-links">
+            <li><a href="#"></a><mark><b><u>Home</u></b></mark></li>            
+            <li><a href="#"></a><mark><b><u>Explore</u></b></mark></li>            
+            <li><a href="#"></a><mark><b><u>About</u></b></mark></li>            
+            <li class="ctn"><a href="#"></a>Contacts</li>            
+        </ul>
+        <img src="./img/menu-btn.webp" alt="" class="menu-btn">
+    </nav>
+
+    <!--Header-->
+    <header>
+        <div class="header-content">
+            <h2>Explore The Cultural India</h2>
+            <div class="line"></div>
+            <h1>HISTORICAL PLACES OF INDIA</h1>
+            <a href="https://www.tourism-of-india.com/blog/historical-places-in-india/" class="ctn">Learn More</a>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="title">
+            <h1>Historical Places</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/taj mahal.jpg" alt=""> 
+                <h4><b><u>TAJ MAHAL</u></b></h4>
+                <p>Taj Mahal is a white marble mausoleum built by Mughal Emperor, Shah Jahan in the year 1653.</p>
+                <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="ctn">Learn More</a>       
+            </div>
+            <div class="col">
+                <img src="./img/gateway of india.jpg" alt=""> 
+                <h4><b><u>GATEWAY OF INDIA</u></b></h4>
+                <p>The Gateway of India is an arch monument built during the 20th century in Bombay, India.</p>
+                <a href="https://en.wikipedia.org/wiki/Gateway_of_India" class="ctn">Learn More</a>       
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="title">
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/india gate.jpg" alt=""> 
+                <h4><b><u>INDIA GATE</u></b></h4>
+                <p>The monument was built to honour the soldiers of British Indian Army who died in First World War and located in Delhi.</p>
+                <a href="https://en.wikipedia.org/wiki/India_Gate" class="ctn">Learn More</a>       
+            </div>
+            <div class="col">
+                <img src="./img/ajanta caves.jpg" alt=""> 
+                <h4><b><u>AJANTA CAVES</u></b></h4>
+                <p>The Gateway of India is an arch monument built during the 20th century in Bombay, India.</p>
+                <a href="https://en.wikipedia.org/wiki/Ajanta_Caves" class="ctn">Learn More</a>       
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Designed And Developed By Yashika Singh</p>
+    </section>
+    
+    <script>
+        const menuBtn = document.querySelector(".menu-btn")
+        const navlinks = document.querySelector(".nav-links")
+
+        menuBtn.addEventListener("click", ()=>{
+            navlinks.classList.toggle("mobile-menu")
+        })
+    </script>
+
+</body>
+</html>
